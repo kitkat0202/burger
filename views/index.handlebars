@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="order col-md-6">
+        <h4>Burgers Ordered</h4>
+        <ul>
+            {{#each burgers}}
+                {{#unless devoured}}
+                    {{> burger-block eat=false}}
+                {{/unless}}
+            {{/each}}
+        </ul>
+    </div>
+    <div class="eaten col-md-6">
+        <h4>Burgers Eaten</h4>
+        <ul>
+            {{#each burgers}}
+                {{#if devoured}}
+                    {{> burger-block eat=true}}
+                {{/if}}
+            {{/each}}
+        </ul>
+    </div>
+
+</div>

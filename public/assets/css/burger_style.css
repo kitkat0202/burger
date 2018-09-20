@@ -1,0 +1,59 @@
+html, body {
+    background-color: #fff3ad;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    height: 250px;
+    margin-bottom: 60px;
+}
+
+.header img {
+    position: absolute;
+    height: 200px;
+    width: 240px;
+    top: 50px;
+    left: 50%;
+    margin-left: -120px;
+    
+}
+
+#submit {
+    width: 100%;
+}
+
+.body {
+    margin-top: 40px;
+}
+
+.eaten ul li {
+    color: #777;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.box {
+    width: 80%;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #eee;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 2px;
+    background-color: #f1e496;
+    margin-bottom: 5px;
+}
+
+.eat {
+    font-size: 10px;
+    height: 20px;
+    padding: 0 2px;
+    line-height: 16px;
+    background-color:#555;
+    border-color: #333;
+    border-radius: 2px;
+    color: #eee;
+}
