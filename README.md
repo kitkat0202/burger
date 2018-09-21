@@ -4,6 +4,7 @@
 ##  12:_Node_Express_Handlebars_
 <img src="burgersamplepic.png" alt="Finished Index" width="500px"/>
 
+Try out the app at: https://shielded-stream-23766.herokuapp.com/
 
 <br/><br/><br/><br/>
 ### Handlebar  &  ORM Assignment
